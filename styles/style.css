@@ -1,0 +1,35 @@
+#title {
+    text-align: center;
+    color: rgb(4, 32, 56);
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: rgb(4, 32, 56);
+    height: 50px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+}
+
+.food-name {
+    text-align: center;
+    font-size: 38px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.min-title,
+.food-name {
+    color: rgb(5, 80, 27);
+}
+
+.min-title{
+    font-size: 32px;
+}
