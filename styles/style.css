@@ -7,8 +7,9 @@
 
 nav {
     background-color: rgb(4, 32, 56);
-    height: 50px;
+    height: 30px;
     text-align: center;
+    padding: 20px;
 }
 
 nav a {
