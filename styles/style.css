@@ -2,6 +2,7 @@ body {
     padding: 10px;
 }
 
+/* Homepage Styling */
 #title {
     text-align: center;
     font-family: "Delius", cursive;
@@ -50,4 +51,63 @@ body {
     height: 18%;
     overflow: hidden;
     margin-left: 5%;
+}
+
+/* Recipe Pages Styling */
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.food-name {
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    margin-left: 25%;
+    color: rgb(35, 35, 88);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.food-img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 5px solid black;
+}
+
+.content {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.min-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    color: rgb(35, 35, 88);
+}
+
+.desc {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients li {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.steps {
+    background-color: rgb(206, 206, 206);
+    padding: 25px 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
